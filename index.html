@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1366, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Instecnico App</title>
+</head>
+
+<body>
+    <img src="assets/phone.jpg" alt="Phone" class="template">
+    <div id="pages">
+        <article class="index news">
+            <!-- Reciente -->
+            <article class="recent-new">
+                <header class="news-header">
+                    <h1>Noticias Recientes</h1>
+                    <span class="today-date long-date"></span>
+                </header>
+                <section class="new">
+                    <section class="content">
+                        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste obcaecati repudiandae
+                            reiciendis.
+                        </h1>
+                        <span class="new-author">
+                            <img src="icons/author.png" alt="Author">
+                            <p>Username</p>
+                        </span>
+                    </section>
+                </section>
+            </article>
+
+            <!-- Todas -->
+            <article class="today-news">
+                <header class="news-header">
+                    <h1>Noticias de Hoy</h1>
+                    <span> Ver todas</span>
+                </header>
+                <section class="news">
+                    <article class="new">
+                        <section class="new-data">
+                            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+                            <div class="author">
+                                <img src="icons/author.png" alt="">
+                                <section class="author-data">
+                                    <p>Username</p>
+                                    <span class="today-date short-date"></span>
+                                </section>
+                            </div>
+                        </section>
+                        <img src="assets/new.png" alt="New Image">
+                    </article>
+                </section>
+            </article>
+        </article>
+        <article class="documents">
+            <header>
+                <h1>Tus solicitudes</h1>
+            </header>
+            <section class="requests">
+                <section class="document" data-status="waiting">
+                    <p class="status">
+                        Estado:&nbsp;
+                        <span>en espera</span>
+                    </p>
+                    <section class="info">
+                        <img src="icons/requests/peace.png" alt="Request Image">
+                        <section class="document-data">
+                            <h3 class="document-title">Paz y salvo</h3>
+                            <span class="today-date short-date"></span>
+                        </section>
+                        <span class="arrow"></span>
+                    </section>
+                </section>
+                <section class="document" data-status="waiting">
+                    <p class="status">
+                        Estado:&nbsp;
+                        <span>en espera</span>
+                    </p>
+                    <section class="info">
+                        <img src="icons/requests/graduate.png" alt="Request Image">
+                        <section class="document-data">
+                            <h3 class="document-title">Acta de grado</h3>
+                            <span class="today-date short-date"></span>
+                        </section>
+                        <span class="arrow"></span>
+                    </section>
+                </section>
+                <section class="document accepted" data-status="accepted">
+                    <p class="status">
+                        Estado:&nbsp;
+                        <span>aceptada</span>
+                    </p>
+                    <section class="info">
+                        <img src="icons/requests/certificate-white.png" alt="Request Image">
+                        <section class="document-data">
+                            <h3 class="document-title">Constancia estudiantil</h3>
+                            <span class="today-date short-date"></span>
+                        </section>
+                        <span class="arrow"></span>
+                    </section>
+                </section>
+                <section class="document accepted" data-status="accepted">
+                    <p class="status">
+                        Estado:&nbsp;
+                        <span>aceptada</span>
+                    </p>
+                    <section class="info">
+                        <img src="icons/requests/ballot-white.png" alt="Request Image">
+                        <section class="document-data">
+                            <h3 class="document-title">Boletin</h3>
+                            <span class="today-date short-date"></span>
+                        </section>
+                        <span class="arrow"></span>
+                    </section>
+                </section>
+                <section class="document pending" data-status="pending">
+                    <p class="status">
+                        Estado:&nbsp;
+                        <span>pendiente de pago</span>
+                    </p>
+                    <section class="info">
+                        <img src="icons/requests/diplom-white.png" alt="Request Image">
+                        <section class="document-data">
+                            <h3 class="document-title">Diploma</h3>
+                            <span class="today-date short-date"></span>
+                        </section>
+                        <span class="arrow"></span>
+                    </section>
+                </section>
+                <section class="document pending" data-status="pending">
+                    <p class="status">
+                        Estado:&nbsp;
+                        <span>pendiente de pago</span>
+                    </p>
+                    <section class="info">
+                        <img src="icons/requests/peace-white.png" alt="Request Image">
+                        <section class="document-data">
+                            <h3 class="document-title">Paz y salvo</h3>
+                            <span class="today-date short-date"></span>
+                        </section>
+                        <span class="arrow"></span>
+                    </section>
+                </section>
+                <section class="document rejected" data-status="rejected">
+                    <p class="status">
+                        Estado:&nbsp;
+                        <span>rechazada</span>
+                    </p>
+                    <section class="info">
+                        <img src="icons/requests/others-white.png" alt="Request Image">
+                        <section class="document-data">
+                            <h3 class="document-title">Solicitud rectoria</h3>
+                            <span class="today-date short-date"></span>
+                        </section>
+                        <span class="arrow"></span>
+                    </section>
+                </section>
+                <section class="document rejected" data-status="rejected">
+                    <p class="status">
+                        Estado:&nbsp;
+                        <span>rechazada</span>
+                    </p>
+                    <section class="info">
+                        <img src="icons/requests/diplom-white.png" alt="Request Image">
+                        <section class="document-data">
+                            <h3 class="document-title">Diploma</h3>
+                            <span class="today-date short-date"></span>
+                        </section>
+                        <span class="arrow"></span>
+                    </section>
+                </section>
+            </section>
+        </article>
+        <article class="new-request">
+            <header>
+                <span class="back" onclick="back()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-left" width="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 12l14 0" />
+                        <path d="M5 12l4 4" />
+                        <path d="M5 12l4 -4" />
+                    </svg>
+                </span>
+                <h1>Que solicitud deseas hacer el dia de hoy?</h1>
+            </header>
+            <section class="requests">
+                <section class="row">
+                    <div class="request">
+                        <img src="icons/requests/certificate.png" alt="">
+                        <p>Constancia estudiantil</p>
+                    </div>
+                    <div class="request">
+                        <img src="icons/requests/graduate.png" alt="">
+                        <p>Acta de grado</p>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="request">
+                        <img src="icons/requests/diplom.png" alt="">
+                        <p>Diplomas</p>
+                    </div>
+                    <div class="request">
+                        <img src="icons/requests/ballot.png" alt="">
+                        <p>Boletin</p>
+                    </div>
+                </section>
+                <section class="row">
+                    <div class="request">
+                        <img src="icons/requests/peace.png" alt="">
+                        <p>Paz y salvo</p>
+                    </div>
+                    <div class="request">
+                        <img src="icons/requests/others.png" alt="">
+                        <p>Otras</p>
+                    </div>
+                </section>
+            </section>
+            <footer>
+                <button class="btn btn-green next">Siguiente</button>
+            </footer>
+        </article>
+    </div>
+    <main class="app">
+        <header class="app-header">
+            <nav>
+                <ul>
+                    <!-- Burger -->
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40"
+                            height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 6l16 0" />
+                            <path d="M4 12l16 0" />
+                            <path d="M4 18l16 0" />
+                        </svg>
+                    </li>
+                    <!-- Logo -->
+                    <li onclick="renderPage('index')">
+                        <img src="icons/logo.png" alt="Instituto Tecnico Quilichao" class="logo" width="40" />
+                    </li>
+                    <!-- Search -->
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="40"
+                            height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                            <path d="M21 21l-6 -6" />
+                        </svg>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="root"></div>
+
+        <footer class="app-footer">
+            <nav>
+                <ul>
+                    <li class="active" data-page="index">
+                        <img src="icons/home.png" alt="Home" class="index icon">
+                        <img src="icons/icons-active/home-active.png" alt="Home" class="index icon-active">
+                    </li>
+                    <li class="active" data-page="documents">
+                        <img src="icons/documents.png" alt="Documentos" class="documents icon">
+                        <img src="icons/icons-active/documents-active.png" alt="Documentos"
+                            class="documents icon-active">
+                    </li>
+                    <li class="active" data-page="new-request">
+                        <img src="icons/add.png" alt="Nuevo documento" class="add">
+                    </li>
+                    <li>
+                        <img src="icons/notifications.png" alt="Notificaciones" class="notifications icon">
+                        <img src="icons/notifications-active.png" alt="Notificaciones"
+                            class="notifications icon-active">
+                    </li>
+                    <li>
+                        <img src="icons/user.png" alt="Perfil" class="user icon">
+                        <img src="icons/user-active.png" alt="Perfil" class="user icon-active">
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <article class="document-card">
+            <section class="card">
+                <span class="line"></span>
+                <section class="download-zone">
+                    <span class="icon-status"></span>
+                    <p class="text">En espera</p>
+                    <span class="icon-success"></span>
+                    <section class="pay-method">
+                        <span>Metodo de pago:</span>
+                        <img src="icons/pse.png" alt="PSE Logo">
+                    </section>
+                </section>
+                <header class="data">
+                    <section class="title">
+                        <h1>Title</h1>
+                        <p class="time-ago">Hace <span class="days">un momento</span></p>
+                    </section>
+                    <p class="status">Estado <span class="text">en espera</span></p>
+                </header>
+                <section class="description">
+                    <h3 class="title">Descripcion</h3>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis perferendis ad inventore perspiciatis, itaque quaerat recusandae dolore, dicta sequi repudiandae quas adipisci iusto? Laudantium molestiae inventore in debitis a sunt!</p>
+                </section>
+                <footer class="card-footer">
+                    <button class="btn close-modal">Atras</button>
+                </footer>
+            </section>
+            <article class="pay-modal">
+                <section class="pay-redirect">
+                    <img src="icons/pse-big.png" alt="Logo PSE">
+                    <p>Seras redirigido a la pasarela de pago...</p>
+                </section>
+            </article>
+        </article>
+    </main>
+</body>
+<script src="assets/script.js"></script>
+
+</html>
